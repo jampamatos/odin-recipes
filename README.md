@@ -7,3 +7,5 @@ I will be updating this Readme file stating the project phase, and describing th
 So, in the first phase, I'm supposed to create the HTML backbone of the website.
 
 To start, I added an index.html page and linked it to my first recipe. Aftewards, I completed the recipe page, and added two other recipes, to a grand total of three.
+
+Second phase starts with the creation of a Stylesheet and some very basic styles. I changed the font, the color of the hyperlinks, some link hover changing and image sizing, all through CSS.
