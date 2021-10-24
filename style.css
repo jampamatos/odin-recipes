@@ -1,6 +1,14 @@
+
 body{
     font-family: Helvetica,'sans-serif';
     font-size: 18px;
+    background-image: url(img/background.png);
+}
+
+.wrapper{
+    background-color: white;
+    margin: 20px 60px;
+    border-radius: 15px;
 }
 
 p{
@@ -41,16 +49,17 @@ a:hover{
 header {
     display: flex;
     height: 160px;
+    padding: 30px 10px;
 }
 
 .header-left{
     display: flex;
     width: 50vw;
-    border: 1px solid red;
+    align-items: center;
 }
 
 .header-logo{
-    width: 40%;
+    width: 60%;
 }
 
 .header-logo img{
@@ -58,8 +67,31 @@ header {
     max-height: 100%;
 }
 
+.header-title h1{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 3.5em;
+    text-align: left;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
 .header-right{
     display: flex;
     width: 50vw;
-    border: 1px solid green;
 }
+
+.red-txt{
+    color: #cf2a38;
+}
+
+.white-txt{
+    color: white;
+    background-color: #cf2a38;
+}
+
+.divider {
+    width: 5px;
+    margin: 6px 0;
+    background: #cf2a38;
+  }
