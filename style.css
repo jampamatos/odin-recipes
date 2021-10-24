@@ -26,10 +26,10 @@ h2{
 
 a{
     text-decoration: none;
-    color: darkslategray;
+    color: #cf2a38;
 }
 a:hover{
-    color: lightslategray;
+    color: #67141c;
 }
 
 .recipe-img{
@@ -143,5 +143,25 @@ header {
 
 .nav {
     background-color: #cf2a8a;
-    height: 50px;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav a{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: #671445;;
 }
