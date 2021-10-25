@@ -9,6 +9,7 @@ body{
     background-color: white;
     margin: 20px 60px;
     border-radius: 15px;
+    border: 2px solid #cf2a38;
 }
 
 p{
@@ -164,4 +165,51 @@ header {
 
 nav a:hover{
     background-color: #671445;;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 50px;
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    border: 2px solid #d17423;
+    padding: 20px 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover{
+    border: 2px solid #cf2a8a;
+}
+
+.card:hover > a{
+    color: #cf2a8a;
+}
+
+.card img{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.card a{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.card a:hover{
+    color:#cf2a8a;
 }
